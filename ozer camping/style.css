@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Cormorant SC', serif;
+    color: white;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    background-color: rgb(47, 100, 66);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    padding: 1.6rem 0;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+header {
+    height: 46rem;
+}
+
+header .bg_image {
+    position: absolute;
+    background-image: url(images/kamp6.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 46rem;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+header h1{
+    padding: 8rem;
+    padding-bottom: 0;
+}
+
+.btn{
+    display: inline-block;
+    background-color:  rgb(86, 238, 142);
+    color: white;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 1.6rem 3.2rem;
+    margin: 37px 0;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(86, 238, 142);
+}
+
+#section-a{
+    background-color: rgba(250, 253, 81, 0);
+    color: rgb(246, 249, 210);
+    padding: 1.4rem;
+    border-bottom: 10px solid rgb(255, 255, 255);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+#section-b{
+    padding: 2rem;
+}
+
+#section-b ul{
+    list-style-type: none;
+}
+
+#section-b li{
+    background: rgb(227, 245, 227);
+    color: rgb(17, 76, 34);
+    border-radius: 50px;
+    margin: 1%;
+    display: inline-block;
+    width: 30%;
+    height: auto;
+}
+
+#section-b img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 250px;
+}
+
+.col-content{
+    padding: 1.2rem;
+}
+
+#section-c .box{
+    padding: 0.5rem;
+}
+
+#section-c .box:last-child{
+    background-color: rgb(4, 30, 1);
+}
+
+footer{
+    padding: 1.5rem;
+    background-color: black;
+}
+
+footer a{
+    color: crimson;
+}
